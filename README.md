@@ -27,3 +27,12 @@ Créer un site web attrayant et facile à naviguer pour permettre aux clients de
 ## Conclusion
 
 Ce projet a été une occasion d'appliquer et de démontrer mes compétences en développement web, en mettant en œuvre une expérience utilisateur enrichie par la fonctionnalité d'inscription, et en présentant efficacement les produits du bar.
+## Executing
+
+### Unix
+
+From root, run `./httpd`
+
+### Windows
+
+From root, run `python3 httpd`
