@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Great+Vibes&family=Playfair+Display:wght@600&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier Prime', sans-serif ;
+}
+
+nav
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid rgb(0, 0, 114) ;
+    border-bottom: 5px solid rgb(0, 0, 114) ;
+}
+nav img
+{
+    width: 8%;
+    margin-bottom: 0px ;
+    float: left;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+nav h1
+{
+    color: #000;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 45px;
+}
+nav .onglets 
+{
+    margin-top: 3px;
+    margin-left: 300px;
+    margin-bottom: 5px;
+} 
+
+nav .onglets
+{
+    font-size: 20px;
+}
+
+nav .onglets a 
+{
+  text-decoration: none;
+  margin-right: 10px;
+  border-bottom: 2px solid;
+  
+}
+
+header
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+background: url(./photos/background-header.jpg);
+background-size:contain;
+color: #fff;
+padding: 40px;
+border-bottom: 5px solid rgb(0, 0, 114) ;
+}
+header h2
+{
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 55px;
+}
+header p
+{
+    margin-top: -20px;
+    font-family:'Courier Prime', sans-serif ;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-weight: 900;
+}
+header button
+{
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+  font-family: 'Courier Prime', sans-serif ;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+aside
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+aside button
+{
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #0e0b9caf;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 240px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+aside .button1 span 
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+aside .button1 span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+  
+aside .button1:hover span 
+{
+  padding-right: 25px;
+}
+  
+aside .button1:hover span:after 
+{
+  opacity: 1;
+  right: 0;
+}
+
+aside .button2 span 
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+aside .button2 span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+    
+aside .button2:hover span 
+{
+  padding-right: 25px;
+}
+    
+aside .button2:hover span:after 
+{
+  opacity: 1;
+  right: 0;
+}
+
+aside .button3 span 
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;  
+}
+aside .button3 span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+      
+aside .button3:hover span 
+{
+  padding-right: 25px;
+}
+      
+aside .button3:hover span:after 
+{
+  opacity: 1;
+  right: 0;
+}
+
+aside .button4 span 
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;  
+}
+aside .button4 span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+        
+aside .button4:hover span 
+{
+  padding-right: 25px;
+}
+        
+aside .button4:hover span:after 
+{
+  opacity: 1;
+  right: 0;
+}
+
+aside .button5 span 
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+aside .button5 span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+  
+aside .button5:hover span 
+{
+  padding-right: 25px;
+}
+  
+aside .button5:hover span:after 
+{
+  opacity: 1;
+  right: 0;
+}
+
+
+.main 
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(./photos/backgroubd-main.jpg);
+  background-size: contain;
+  background-size: 50%;
+  color: #fff;
+  padding: 40px;
+  border-top: 5px solid rgb(0, 0, 114) ;
+  border-bottom: 5px solid rgb(0, 0, 114) ;
+
+}
+.main .content .principal
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .principal .left
+{
+    flex: 0 0 35%;
+    padding: 20px;
+    color: #fff;
+}
+.main .content .principal.right
+{
+    flex: 0 0 65%;
+}
+.main .content .principal .right img
+{
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+}
+
+#strongtab 
+{
+    font-family: 'Courier Prime', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+  
+#strongtab td, #strongtab th 
+{
+    border: 1px solid rgba(66, 54, 172, 0.185);
+    padding: 8px;
+}
+  
+#strongtab tr:nth-child(even)
+{
+    background-color: #f31212d3;
+}
+  
+#strongtab th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2e04e7;
+    color: white;
+}
+
+
+#strongtab tr:nth-child(odd)
+{
+    background-color: #00000093;
+}
+#strongtab tr:hover
+{
+    background-color: rgba(5, 48, 189, 0.712);
+}
+
+
+#fruitytab 
+{
+    font-family: 'Courier Prime', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+  
+#fruitytab td, #fruitytab th 
+{
+    border: 1px solid rgba(66, 54, 172, 0.185);
+    padding: 8px;
+}
+  
+#fruitytab tr:nth-child(even)
+{
+    background-color: #f31212d3;
+}
+  
+#fruitytab tr:hover
+{
+    background-color: rgba(204, 55, 10, 0.575);
+}
+  
+#fruitytab th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2e04e7;
+    color: white;
+}
+
+#fruitytab tr:nth-child(odd)
+{
+    background-color: #00000093;
+}
+
+#fruitytab tr:hover
+{
+    background-color: rgba(5, 48, 189, 0.712);
+}
+
+#freshtab 
+{
+    font-family: 'Courier Prime', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+  
+#freshtab td, #freshtab th 
+{
+    border: 1px solid rgba(66, 54, 172, 0.185);
+    padding: 8px;
+}
+  
+#freshtab tr:nth-child(even)
+{
+    background-color: #f31212d3;
+}
+
+#freshtab tr:nth-child(odd)
+{
+    background-color: #000000;
+}
+#freshtab tr:nth-child(odd)
+{
+    background-color: #00000093;
+}
+  
+#freshtab tr:hover
+{
+    background-color: rgba(5, 48, 189, 0.712);
+}
+  
+#freshtab th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2e04e7;
+    color: white;
+}
+
+footer
+{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 200px;
+    margin-top: 20px;
+    border-top: 5px solid rgb(0, 0, 114) ;
+    border-bottom: 5px solid rgb(0, 0, 114) ;
+}
+footer button
+{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor:pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0704c99a;
+    border: none;
+    border-radius: 15px;
+}
+footer .button:hover
+{
+    background-color: #e70c0c83
+}
+footer .button:active
+{
+  background-color: #0d0fac6b;
+  transform: translateY(4px);
+}
+footer h2
+{
+    font-family:'Courier Prime', sans-serif;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    width: 27%;
+}
+footer .services
+{
+    margin-top: -5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .serv
+{
+   margin-right: 30px;
+    padding: 10px;
+
+}
+footer .services .serv p
+{
+    max-width: 300px;
+}
+ul.list
+{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+ul.list .type
+{
+    padding-bottom: 15px;
+}
+ul.list .cockt
+{
+    padding-bottom: 15px;
+}
+ul.list .crep
+{
+    padding-bottom: 15px;
+}
+ul.list .drink
+{
+  padding-bottom: 15px;
+}
+footer #contact
+{
+    color: blanchedalmond;
+}
+footer #contactemail
+{
+    color: blanchedalmond;
+}
+
+@media screen and (max-width:680px)
+{
+  nav img
+  {
+    height: 100px;
+    width: 25%;
+    margin: 0%;
+  }  
+  nav .onglets
+  {
+    margin-left: 0px; 
+    margin-bottom: 20px;
+  }
+  .main .principal
+  {
+    margin: 10px;
+    text-align: center;
+  }
+  .main .content .principal .right img
+  {
+    height: 200px;
+    width: 85%;
+    margin: 30px;
+  }
+  .main .content .principal
+  {
+    display: block;
+  }
+  .main .content .principal .right
+  {  
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .main .content .principal .left
+  {  
+    align-items: center;
+    margin: 10%;
+  }
+
+  footer
+  {
+    padding: 30px;
+  }
+}
